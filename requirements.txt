@@ -1,0 +1,32 @@
+# ============================================================
+# BISINDO Object Detection — Dependencies
+# ============================================================
+# Python >= 3.10 recommended
+# GPU support: CUDA 11.8 / 12.1 (see PyTorch install guide)
+#   https://pytorch.org/get-started/locally/
+# ============================================================
+
+# ── Deep Learning Framework ─────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ── Object Detection ─────────────────────────────────────────
+ultralytics>=8.4.52          # YOLOv8 / YOLOv9 / YOLOv10 / YOLO11 / YOLO26
+
+# ── Evaluation & Metrics ─────────────────────────────────────
+torchmetrics>=1.0.0          # mAP, Precision, Recall
+pycocotools>=2.0.7           # COCO-format evaluation
+
+# ── Data Processing & Visualization ──────────────────────────
+opencv-python>=4.8.0         # Image & video processing
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+Pillow>=10.0.0
+PyYAML>=6.0
+tqdm>=4.65.0                 # Progress bars
+
+# ── Jupyter / Notebook Support ───────────────────────────────
+ipython>=8.0.0
+ipykernel>=6.0.0
